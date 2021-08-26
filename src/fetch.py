@@ -17,6 +17,9 @@ class Fetch():
     def savePdf(self):
         pass
 
+    def readLink(self):
+
+
     def start(self):
         print(self.args)
-        
+        self.readLink()
