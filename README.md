@@ -1,5 +1,5 @@
 # Slideshare Downloader
-Simple slideshare slide downloader for slides which are not available for **Download to read offline**.
+Simple slideshare slide downloader for slides that are not available for **Download to read offline**.
 
 ### Requirements
 
