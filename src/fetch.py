@@ -1,19 +1,16 @@
 import requests
 from bs4 import BeautifulSoup
 import src.helpers as hp
-import datetime as dt
 import shutil
 from PIL import Image
 from tqdm import tqdm
 import os
+
 class Fetch():
     def __init__(self, arguments):
         super(Fetch, self).__init__()
         self.args = arguments
         hp.imageDirectory(self.args[0])
-
-
-  
     
     def directory_check(self, slide_name):
         self.slide_folder_name = slide_name.split('/')[-1]

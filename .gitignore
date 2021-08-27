@@ -2,3 +2,5 @@
 notebooks/
 
 src/__pycache__/
+
+*.pyc
